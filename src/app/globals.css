@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply list-none p-0 m-0 outline-none scroll-smooth;
+    scrollbar-width: none;
+    outline: none;
+}
+
+body{
+    @apply bg-white h-screen w-full;
+}
